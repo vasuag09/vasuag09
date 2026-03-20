@@ -1,131 +1,141 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Vasu%20Agrawal&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Builder%20%7C%20Researcher&descAlignY=58&descSize=18&descColor=a78bfa&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Vasu%20Agrawal&fontSize=62&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%E2%80%94%20Building%20at%20the%20intersection%20of%20research%20%26%20product&descAlignY=58&descSize=16&descColor=c4b5fd&animation=fadeIn" />
 
-<!-- Badges -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-vasu--portfolio-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://vasu-portfolio-m8p1.onrender.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vasu-agrawal)
-[![Gmail](https://img.shields.io/badge/Email-Reach%20Out-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vasu@example.com)
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vasuai.dev/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vasu-agrawal20/)
+[![Gmail](https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vasuagrawal1040@gmail.com)
+[![Visitors](https://komarev.com/ghpvc/?username=vasu-agrawal&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/vasuag09)
 
 </div>
 
 ---
 
-## `whoami`
+## `$ whoami`
 
 ```python
 class VasuAgrawal:
-    role        = "MBA Tech (Computer Engineering), 3rd Year"
-    institute   = "MPSTME, NMIMS | CGPA: 3.82 / 4.0"
-    target      = ["AI/ML Engineer", "Data Scientist", "AI Startup Founder"]
-    building    = "CollegeGPT — RAG-based campus AI platform"
-    interests   = ["LLMs & RAG", "Computer Vision", "Deep Learning", "MLOps"]
-    stack       = ["Python", "PyTorch", "LangChain", "Gemini API", "Streamlit"]
+    education   = "MBA Tech (Computer Engineering) · MPSTME, NMIMS · CGPA 3.82/4.0"
+    role        = "3rd Year · Aspiring AI/ML Engineer & AI Startup Founder"
+    building    = "CollegeGPT — RAG-based campus AI platform (Python · LangChain · Gemini · FAISS)"
+    interests   = ["LLMs & RAG Systems", "Computer Vision", "Deep Learning", "MLOps"]
+    currently   = ["Generative AI", "LangChain Agents", "System Design for ML"]
+    open_to     = ["Research Collabs", "AI/ML Internships", "Founding Team Roles"]
 ```
 
 ---
 
-## 🧠 ML / AI Projects
+## 🔨 What I've Built
 
-| Project | Domain | Score |
+### 🤖 AI / ML
+
+| Project | Description | Stack |
 |---|---|---|
-| 🛰️ Urban Waste Dump Detection (Sentinel-2) | Computer Vision / Remote Sensing | `8.6 / 10` |
-| 🔬 CIFAR-10 Super-Resolution Decoder | Deep Learning | `8.6 / 10` |
-| 🛡️ Network Intrusion Detection (CIC-IDS2017) | Cybersecurity ML | `8.5 / 10` |
-| 💬 US Airline Sentiment Analysis | NLP | `9.3 / 10` |
-| 🌸 Flower Recognition (ResNet50) | Transfer Learning | `9.1 / 10` |
-| 🏥 Health Insurance Fraud Detection | Tabular ML | `9.0 / 10` |
-| 📄 Insightify AI Resume Tracker | Full-Stack AI | `9.0 / 10` |
-| 🚦 Intelligent Traffic Analytics System | CV + Analytics | `8.7 / 10` |
-| 🏠 Airbnb Price Optimization | Regression / ML | `8.5 / 10` |
-| 🩺 MNIST Classifier | CNN | `9.2 / 10` |
+| **CollegeGPT** | RAG chatbot for campus knowledge — ongoing MVP | LangChain · Gemini · FAISS · Streamlit |
+| **Urban Waste Detection** | Satellite imagery analysis over Shirpur using Sentinel-2 | Python · OpenCV · Scikit-learn |
+| **Network Intrusion Detection** | Trained on CIC-IDS2017 to classify attack types | Python · XGBoost · Pandas |
+| **CIFAR-10 Super-Resolution** | Decoder study for low-res image reconstruction | PyTorch · CNNs |
+| **Heartbeat Sound Classification** | CNN on audio spectrograms for cardiac event detection | TensorFlow · Librosa |
+| **Shakespeare GRU Generator** | Char-level text generation with GRU architecture | TensorFlow · Keras |
+| **US Airline Sentiment Analysis** | NLP pipeline for tweet-based sentiment classification | NLTK · Sklearn · Pandas |
+| **Health Insurance Fraud Detection** | Anomaly detection on medical claims data | Python · Ensemble Models |
+| **Flower Recognition (ResNet50)** | Transfer learning for multi-class flower classification | PyTorch · ResNet50 |
+| **Traffic Analytics System** | Real-time vehicle detection and flow analysis | OpenCV · YOLOv5 |
+
+### 🌐 Web / Full-Stack
+
+| Project | Description | Stack |
+|---|---|---|
+| **Insightify** | Full-stack AI resume tracker with job matching | React · Node.js · MongoDB · AI APIs |
+| **Blog App** | CRUD blog platform with data-fetching optimizations | React · React Query |
+| **Notes App** | Authenticated notes manager with JWT auth | React · Express · JWT |
+| **Habit Tracker** | Daily habit management dashboard | React · Local Storage |
 
 ---
 
-## 🔧 Tech Stack
+## ⚙️ Tech Stack
 
 <div align="center">
 
-**Languages & Frameworks**
+**Core ML / AI**
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-ffd21e?style=flat-square&logo=huggingface&logoColor=black)
+
+**LLMs / RAG**
+
 ![LangChain](https://img.shields.io/badge/LangChain-1c3c3c?style=flat-square&logo=chainlink&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%20API-4285f4?style=flat-square&logo=google&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467df?style=flat-square&logo=meta&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white)
+
+**Web**
+
 ![React](https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-
-**AI / ML Tools**
-
-![FAISS](https://img.shields.io/badge/FAISS-0467df?style=flat-square&logo=meta&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini%20API-4285f4?style=flat-square&logo=google&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-ffd21e?style=flat-square&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white)
-
-**Data & Cloud**
-
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479a1?style=flat-square&logo=mysql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-f80000?style=flat-square&logo=oracle&logoColor=white)
+
+**Tools & Cloud**
+
 ![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-f80000?style=flat-square&logo=oracle&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 Core Skill Ratings
+## 📊 GitHub Stats
 
-```
-Error Debugging Speed    ████████████████████░  4.8 / 5
-Project Execution        ████████████████████░  4.6 / 5
-CNNs                     █████████████████░░░░  4.4 / 5
-Documentation            █████████████████░░░░  4.4 / 5
-Streamlit                █████████████████░░░░  4.3 / 5
-Python                   ████████████████░░░░░  4.2 / 5
-ML Engineering           ████████████████░░░░░  4.0 / 5
-Web Development          ████████████████░░░░░  4.0 / 5
-```
+<div align="center">
 
----
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=vasuag09&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=a78bfa&icon_color=7c3aed&text_color=e2e8f0&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasuag09&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=a78bfa&text_color=e2e8f0&langs_count=8" />
 
-## 🏗️ Currently Building
+<br/>
 
-> **CollegeGPT** — A RAG-based AI chatbot for campus knowledge retrieval.
-> Stack: `Python` · `LangChain` · `Gemini 2.5 Pro` · `FAISS` · `PyMuPDF` · `Streamlit`
-> Status: **MVP in progress — targeting dean demo**
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=vasuag09&theme=tokyonight&hide_border=true&background=0d0d0d&stroke=7c3aed&ring=a78bfa&fire=c4b5fd&currStreakLabel=e2e8f0&sideLabels=e2e8f0&dates=94a3b8" />
+
+<br/>
+
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=vasuag09&theme=tokyo-night&bg_color=0d0d0d&color=a78bfa&line=7c3aed&point=c4b5fd&hide_border=true" />
+
+</div>
 
 ---
 
 ## 📜 Certifications
 
-- 🎓 MathWorks Computer Vision Engineer Professional Certificate *(Coursera, Dec 2025)*
-- 🤖 IBM Generative AI Professional Certificate *(in progress)*
-- 🧪 IBM Machine Learning Professional Certificate *(in progress)*
-- ☁️ Oracle Cloud Infrastructure AI Foundations
-- 🧠 Machine Learning Specialization — Andrew Ng
-- 🏅 LLM Engineering — Udemy
-- ✅ Kaggle: Python · Pandas · Data Visualization
+- 🎓 **MathWorks Computer Vision Engineer Professional Certificate** — Coursera, Dec 2025
+- 🤖 **IBM Generative AI Professional Certificate** — In Progress
+- 🧪 **IBM Machine Learning Professional Certificate** — In Progress
+- 🧠 **Machine Learning Specialization** — Andrew Ng, Coursera
+- 🏅 **LLM Engineering (Hands-on)** — Udemy
+- ☁️ **Oracle Cloud Infrastructure AI Foundations**
+- ✅ **Kaggle** — Python · Pandas · Data Visualization
 
 ---
 
-## 📈 GitHub Stats
+## 🌱 Currently Learning
 
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=vasu-agrawal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=a78bfa&icon_color=7c3aed&text_color=e2e8f0" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vasu-agrawal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d0d0d&title_color=a78bfa&text_color=e2e8f0" />
-
-</div>
+- **LangChain Agents & Tool Calling** — building agentic pipelines for CollegeGPT
+- **RAG Optimization** — chunking strategies, hybrid search, re-ranking
+- **System Design for ML** — scaling inference, vector stores, caching layers
+- **DSA** — active curriculum for interview prep
 
 ---
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
 
 *"Ship first. Optimize second. Learn always."*
 
