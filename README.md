@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=Vasu%20Agrawal&fontSize=60&fontColor=fff&fontAlignY=38&desc=AI%20Developer%20%7C%20Production%20LLM%20%26%20Agentic%20Systems&descAlignY=58&descSize=18&descColor=fff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=200&section=header&text=Vasu%20Agrawal&fontSize=60&fontColor=fff&fontAlignY=38&desc=AI%20Developer%20%7C%20Production%20LLM%20and%20Agentic%20Systems&descAlignY=58&descSize=18&descColor=fff)
 
 <br/>
 
