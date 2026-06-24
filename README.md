@@ -1,13 +1,15 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=Vasu%20Agrawal&fontSize=60&fontColor=fff&fontAlignY=38&desc=AI%20/%20ML%20Engineer%20%7C%20Builder%20%7C%20Researcher&descAlignY=58&descSize=18&descColor=fff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=Vasu%20Agrawal&fontSize=60&fontColor=fff&fontAlignY=38&desc=AI%20Developer%20%7C%20Production%20LLM%20%26%20Agentic%20Systems&descAlignY=58&descSize=18&descColor=fff)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vasuai.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vasu-agrawal20/)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/vasuag1040)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@vasuagrawal1040)
 [![Gmail](https://img.shields.io/badge/Gmail-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vasuagrawal1040@gmail.com)
-[![Visitors](https://komarev.com/ghpvc/?username=vasu-agrawal&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/vasuag09)
+[![Visitors](https://komarev.com/ghpvc/?username=vasuag09&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS)](https://github.com/vasuag09)
 
 </div>
 
@@ -17,41 +19,61 @@
 
 ```python
 class VasuAgrawal:
-    education   = "MBA Tech (Computer Engineering) · MPSTME, NMIMS · CGPA 3.82/4.0"
-    role        = "3rd Year · Aspiring AI/ML Engineer & AI Startup Founder"
-    building    = "CollegeGPT — RAG-based campus AI platform (Python · LangChain · Gemini · FAISS)"
-    interests   = ["LLMs & RAG Systems", "Computer Vision", "Deep Learning", "MLOps"]
-    currently   = ["Generative AI", "LangChain Agents", "System Design for ML"]
-    open_to     = ["Research Collabs", "AI/ML Internships", "Founding Team Roles"]
+    education   = "MBA Tech (Computer Engineering) · MPSTME, NMIMS · CGPA 3.71/4.0"
+    role        = "AI Developer Intern @ Ardour Analytics (fundly.ai) · 4th Year"
+    building    = "FundlyMart — production B2B pharmacy WhatsApp ordering agent (TypeScript · Vercel AI SDK · Hexagonal Architecture)"
+    interests   = ["Agentic AI Systems", "LLM Orchestration", "Production ML Infra", "Open Source"]
+    currently   = ["Migrating FundlyMart to a fully tool-driven agent loop",
+                   "Integrating with Fundly's Spine backend",
+                   "Daily DSA — FAANG interview prep"]
+    open_to     = ["AI Engineering roles", "Founding team opportunities", "Open-source collaboration"]
 ```
+
+---
+
+## 🎯 Featured: harness-claude
+
+<div align="center">
+
+[![Repo](https://img.shields.io/badge/Repo-vasuag09%2Fharness--claude-000000?style=flat-square&logo=github&logoColor=white)](https://github.com/vasuag09/harness-claude)
+![Stars](https://img.shields.io/github/stars/vasuag09/harness-claude?style=flat-square&color=7c3aed)
+![License](https://img.shields.io/github/license/vasuag09/harness-claude?style=flat-square&color=a78bfa)
+
+</div>
+
+A lean, full-SDLC harness for Claude Code — **Plan → Implement → Verify → Maintain** — with subagent orchestration, runtime gates, and cross-session memory. Ships as an isolated Claude Code plugin; never touches the user's existing `~/.claude`.
+
+- **33 skills · 8 scoped subagents · 7 always-on rules** across the pipeline, plus phase orchestrators (`/harness-plan`, `/harness-implement`, `/harness-verify`, `/harness-maintain`, `/harness`)
+- **Benchmark-gated by design** — every optimization has to beat a bare baseline on cost-per-successful-task at held pass^k consistency, or it gets killed and the reason gets written down
+- Generation-reduction (`/lazy`) shipped: **−35% generated output tokens, −23% LOC**, at held accuracy — two other optimizations (input-compression proxy, a popular code-graph MCP) were benchmarked and killed for not earning their keep
+- MIT-licensed · TypeScript/JS + Python focus · near-zero-dependency hooks
 
 ---
 
 ## 🔨 What I've Built
 
-### 🤖 AI / ML
+### 🤖 AI / Agentic Systems
 
 | Project | Description | Stack |
 |---|---|---|
-| **CollegeGPT** | RAG chatbot for campus knowledge — ongoing MVP | LangChain · Gemini · FAISS · Streamlit |
-| **Urban Waste Detection** | Satellite imagery analysis over Shirpur using Sentinel-2 | Python · OpenCV · Scikit-learn |
-| **Network Intrusion Detection** | Trained on CIC-IDS2017 to classify attack types | Python · XGBoost · Pandas |
-| **CIFAR-10 Super-Resolution** | Decoder study for low-res image reconstruction | PyTorch · CNNs |
-| **Heartbeat Sound Classification** | CNN on audio spectrograms for cardiac event detection | TensorFlow · Librosa |
-| **Shakespeare GRU Generator** | Char-level text generation with GRU architecture | TensorFlow · Keras |
-| **US Airline Sentiment Analysis** | NLP pipeline for tweet-based sentiment classification | NLTK · Sklearn · Pandas |
-| **Health Insurance Fraud Detection** | Anomaly detection on medical claims data | Python · Ensemble Models |
-| **Flower Recognition (ResNet50)** | Transfer learning for multi-class flower classification | PyTorch · ResNet50 |
-| **Traffic Analytics System** | Real-time vehicle detection and flow analysis | OpenCV · YOLOv5 |
+| **FundlyMart WhatsApp Bot** | Production B2B pharmacy ordering agent — 17-tool registry, LLM-orchestrated tool-call loop, deployed on AWS ECS Fargate, 2,314 tests across 61 files | TypeScript · Vercel AI SDK · Hexagonal Architecture |
+| **NM-GPT** | RAG-based campus chatbot serving 1,200+ NMIMS students, demoed to the Dean, SSE-streamed responses | Gemini · FAISS · FastAPI · Next.js |
+| **Network Intrusion Detection (NIDS)** | 15-class Random Forest classifier on CIC-IDS2017, co-authored IEEE paper, interactive dashboard | Python · Scikit-learn · Streamlit |
+| **US Airline Sentiment Analysis** | End-to-end NLP pipeline for tweet-based sentiment classification | NLTK · Scikit-learn · Pandas |
+| **GeoVision-LULC** | Land-use/land-cover classification from satellite imagery | Python · Remote Sensing · CNNs |
 
 ### 🌐 Web / Full-Stack
 
 | Project | Description | Stack |
 |---|---|---|
-| **Insightify** | Full-stack AI resume tracker with job matching | React · Node.js · MongoDB · AI APIs |
-| **Blog App** | CRUD blog platform with data-fetching optimizations | React · React Query |
-| **Notes App** | Authenticated notes manager with JWT auth | React · Express · JWT |
-| **Habit Tracker** | Daily habit management dashboard | React · Local Storage |
+| **vasuai.dev** | Personal portfolio — AI Developer identity, project showcase | Next.js · Vercel |
+
+### 🧩 Open Source
+
+| Contribution | Description |
+|---|---|
+| **Ray / Anyscale** | Added observability metrics (latency, utilization, dispatch timing) to `AsyncioRouter` in Ray Serve, with full unit test coverage |
+| **Streamlit** | Resolved [#13005](https://github.com/streamlit/streamlit) — integer/pixel gap parameter support across proto/Python/TS layers, 209 CI tests passing |
 
 ---
 
@@ -59,35 +81,33 @@ class VasuAgrawal:
 
 <div align="center">
 
-**Core ML / AI**
+**Languages & Core**
 
 ![Python](https://img.shields.io/badge/Python-3776ab?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-ff6f00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5c3ee8?style=flat-square&logo=opencv&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-ffd21e?style=flat-square&logo=huggingface&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 
-**LLMs / RAG**
+**LLMs / Agentic AI**
 
+![Vercel AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-000000?style=flat-square&logo=vercel&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1c3c3c?style=flat-square&logo=chainlink&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini%20API-4285f4?style=flat-square&logo=google&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467df?style=flat-square&logo=meta&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?style=flat-square&logo=streamlit&logoColor=white)
 
-**Web**
+**ML / Data**
 
-![React](https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479a1?style=flat-square&logo=mysql&logoColor=white)
-
-**Tools & Cloud**
-
-![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-f80000?style=flat-square&logo=oracle&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-f7931e?style=flat-square&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-ec4f3a?style=flat-square&logo=xgboost&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+**Web & Infra**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS%20ECS%20Fargate-ff9900?style=flat-square&logo=amazon-aws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-f05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
@@ -114,22 +134,21 @@ class VasuAgrawal:
 
 ## 📜 Certifications
 
-- 🎓 **MathWorks Computer Vision Engineer Professional Certificate** — Coursera, Dec 2025
-- 🤖 **IBM Generative AI Professional Certificate** — In Progress
-- 🧪 **IBM Machine Learning Professional Certificate** — In Progress
+- 🤖 **IBM Machine Learning Professional Certificate**
 - 🧠 **Machine Learning Specialization** — Andrew Ng, Coursera
-- 🏅 **LLM Engineering (Hands-on)** — Udemy
-- ☁️ **Oracle Cloud Infrastructure AI Foundations**
-- ✅ **Kaggle** — Python · Pandas · Data Visualization
+- 🎓 **MathWorks Computer Vision Engineer Professional Certificate**
+- ☁️ **Oracle Cloud Infrastructure AI Foundations Associate**
+- 📱 **Meta React Native Certificate**
+- *+ 6 additional certifications — full list on [LinkedIn](https://www.linkedin.com/in/vasu-agrawal20/)*
 
 ---
 
-## 🌱 Currently Learning
+## 🌱 Currently Learning / Building
 
-- **LangChain Agents & Tool Calling** — building agentic pipelines for CollegeGPT
-- **RAG Optimization** — chunking strategies, hybrid search, re-ranking
-- **System Design for ML** — scaling inference, vector stores, caching layers
-- **DSA** — active curriculum for interview prep
+- **Agentic architecture at production scale** — tool registries, multi-step orchestration, Spine backend integration
+- **DSA** — daily practice, FAANG-level interview prep
+- **Personal brand & technical writing** — LinkedIn, Medium, X, Substack
+- **AI startup groundwork** — long-term goal: founding an AI company
 
 ---
 
